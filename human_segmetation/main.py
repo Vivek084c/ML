@@ -13,8 +13,10 @@ if __name__ == "__main__":
     head_img = out_file["head"]
     body_img = out_file["body"]
 
-    head_body_detection_model.show_img(head_img)
-    head_body_detection_model.show_img(body_img)
+    model_1.show_img(head_img)
+    model_1.show_img(body_img)
+
+    
 
 
 
