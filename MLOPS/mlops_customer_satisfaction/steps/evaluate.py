@@ -1,9 +1,14 @@
 import logging 
 import pandas as pd
 from zenml import step
-
+from sklearn.base import RegressorMixin
+from src.evaluation import MSE, RMSE,R2
 @step 
-def evaluate_model(df: pd.DataFrame)  -> None:
+def evaluate_model(
+    model: RegressorMixin, 
+    X_test: pd.DataFrame,
+    y_test: pd.DataFrame
+    )  -> None:
     """
     Evaluate the model on ingested data
     Args: 
@@ -11,4 +16,13 @@ def evaluate_model(df: pd.DataFrame)  -> None:
     return:
         None
     """
-    pass
+    prediction = model.predict(X_test)
+
+    mse_class =MSE()
+    mse = mse_class.calculate_score(y_test, prediction)
+
+    r2_class =R2()
+    r2 = r2_class.calculate_score(y_test, prediction)
+
+    rmse_class = RMSE()
+    rmse = rmse_class.calculate_score()
