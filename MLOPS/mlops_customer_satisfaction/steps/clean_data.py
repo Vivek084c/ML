@@ -10,8 +10,8 @@ from typing import Tuple
 @step
 def clean_df(df: pd.DataFrame) -> Tuple[
     Annotated[pd.DataFrame, "X_train"],
-    Annotated[pd.Series, "y_train"],
     Annotated[pd.DataFrame, "X_test"],
+    Annotated[pd.Series, "y_train"],
     Annotated[pd.Series, "y_test"]
 ]:
     """
@@ -33,6 +33,7 @@ def clean_df(df: pd.DataFrame) -> Tuple[
         data_cleaning = DataClearning(processed_data, divide_statergy)
         X_train, X_test, y_train, y_test = data_cleaning.handle_data()
         logging.info("Data Cleaning Compleated")
+        X_train, X_test, y_train, y_test
     except Exception as e:
         logging.error("Error in cleaning the data: {}".format(e))
         raise e
