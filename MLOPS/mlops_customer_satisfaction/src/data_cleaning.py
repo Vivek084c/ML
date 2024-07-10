@@ -27,8 +27,8 @@ class DataPreProcessStatergy(DataStatergy):
             data = data.drop(
                 [
                 "order_approved_at",
-                "orderydelivered_carrier _date",
-                "order_delivered_ customer _date",
+                "order_delivered_carrier_date",
+                "order_delivered_customer_date",
                 "order_estimated_delivery_date",
                 "order_purchase_timestamp",
                 ],

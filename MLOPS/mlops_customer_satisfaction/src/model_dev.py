@@ -36,6 +36,7 @@ class LinearRegressionModel(Model):
             reg = LinearRegression(**kwargs)
             reg.fit(X_train, y_train)
             logging.info("Model training compleate")
+            return reg
         except Exception as e:
             logging.error("Error in Model training: {}".format(e))
             raise e

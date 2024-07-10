@@ -23,8 +23,8 @@ def evaluate_model(
     """
     prediction = model.predict(X_test)
 
-    mse_class =MSE()
-    mse = mse_class.calculate_score(y_test, prediction)
+    # mse_class =MSE()
+    # mse = mse_class.calculate_score(y_test, prediction)
 
     r2_class =R2()
     r2 = r2_class.calculate_score(y_test, prediction)
