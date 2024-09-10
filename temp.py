@@ -15,3 +15,5 @@ while c!=len(stack)-1:
         print(f"the index value is {index}")
         stack.pop(0)
         popNow = True
+
+# hellow work
