@@ -53,26 +53,27 @@ if __name__=="__main__":
 
         predictino_quantity = lr.predict(test_x)
 
-    (rmse, mae,r2) = evel_metrices(test_y, predictino_quantity)
+        (rmse, mae,r2) = evel_metrices(test_y, predictino_quantity)
 
 
-    mlflow.log_param("alpha", alpha)
-    mlflow.log_param("l1_ratio", l1_ratio)
-    mlflow.log_metric("rmse", rmse)
-    mlflow.log_metric("r2", r2)
-    mlflow.log_metric("mae", mae)
+        mlflow.log_param("alpha", alpha)
+        mlflow.log_param("l1_ratio", l1_ratio)
+        mlflow.log_metric("rmse", rmse)
+        mlflow.log_metric("r2", r2)
+        mlflow.log_metric("mae", mae)
 
-    predictions  = lr.predict(train_x)
-    signature = infer_signature(train_x, predictions)
+        prediction = lr.predict(test_x)
+        signature = infer_signature(train_x, prediction)
 
-    tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
-    #model registery does not work with file store
-    if tracking_url_type_store != "file":
-        #tracking in uri
-        mlflow.sklearn.log_model(
-            lr, "model", registered_model_name="ElasticcnetWithModel", signature=signature
-        )
-    else:
-        #tracking in local
-        mlflow.sklearn.log_model(lr, "model", signature=signature)
+        tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
+
+        #model registery does not work with file store
+        if tracking_url_type_store != "file":
+            #tracking in uri
+            mlflow.sklearn.log_model(
+                lr, "model", registered_model_name="ElasticcnetWithModel", signature=signature
+            )
+        else:
+            #tracking in local
+            mlflow.sklearn.log_model(lr, "model", signature=signature)
