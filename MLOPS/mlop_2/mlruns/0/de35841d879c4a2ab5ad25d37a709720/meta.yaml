@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vivek/work/GIT/ML/MLOPS/mlop_2/mlruns/0/de35841d879c4a2ab5ad25d37a709720/artifacts
+end_time: 1726724861711
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: de35841d879c4a2ab5ad25d37a709720
+run_name: big-rat-210
+run_uuid: de35841d879c4a2ab5ad25d37a709720
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726724861705
+status: 3
+tags: []
+user_id: vivek

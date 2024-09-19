@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vivek/work/GIT/ML/MLOPS/mlop_2/mlruns/0/d29d5c60ae8a4e26adefd5009618e74f/artifacts
+end_time: 1726724851735
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d29d5c60ae8a4e26adefd5009618e74f
+run_name: peaceful-conch-918
+run_uuid: d29d5c60ae8a4e26adefd5009618e74f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726724851728
+status: 3
+tags: []
+user_id: vivek

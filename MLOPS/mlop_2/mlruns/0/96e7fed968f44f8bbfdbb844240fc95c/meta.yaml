@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/vivek/work/GIT/ML/MLOPS/mlop_2/mlruns/0/96e7fed968f44f8bbfdbb844240fc95c/artifacts
+deleted_time: 1726724640795
+end_time: 1726724310587
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 96e7fed968f44f8bbfdbb844240fc95c
+run_name: awesome-fox-998
+run_uuid: 96e7fed968f44f8bbfdbb844240fc95c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726724310578
+status: 3
+tags: []
+user_id: vivek

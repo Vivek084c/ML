@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/vivek/work/GIT/ML/MLOPS/mlop_2/mlruns/0/e0b60d38ee7d41ae8e6f67fff8371eaa/artifacts
+deleted_time: 1726724640800
+end_time: 1726723887725
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: e0b60d38ee7d41ae8e6f67fff8371eaa
+run_name: worried-crow-219
+run_uuid: e0b60d38ee7d41ae8e6f67fff8371eaa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726723887718
+status: 3
+tags: []
+user_id: vivek

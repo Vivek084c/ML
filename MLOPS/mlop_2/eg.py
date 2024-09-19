@@ -30,24 +30,19 @@ if __name__=="__main__":
     np.random.seed(40)
 
     #reading the csv file
-    csv_url = (
-    "<enter csv url here>"
-    )
-    try:
-        data = pd.read_csv(csv_url, sep="")
-    except Exception as e:
-        logger.exception(
-            "Unable to download training and test csv, check your internet connection : %s ",e
-        )
+
+    
+    data = pd.read_csv("USA_Housing.csv")
+
 
     #splt the data into training and test split
+    data.drop("Address", axis=1, inplace=True)
     train, test = train_test_split(data)
-
     # the prediction column is "quality" which is a scaler 
-    train_x =train.drop(["quality"], axis = 1)
-    test_x = test.drop(["quality"], axis = 1)
-    train_y = train(["quality"])
-    test_y=test(["quality"])
+    train_x =train.drop(["Price"], axis = 1)
+    test_x = test.drop(["Price"], axis = 1)
+    train_y = train["Price"]
+    test_y=test["Price"]
 
     alpha = float(sys.argv[1]) if len(sys.argv)>1 else 0.5
     l1_ratio = float(sys.argv[2]) if len(sys.argv)>2 else 0.5
@@ -56,16 +51,16 @@ if __name__=="__main__":
         lr = ElasticNet(alpha=alpha, l1_ratio=l1_ratio, random_state = 42)
         lr.fit(train_x, train_y)
 
-        predictino_quantity = lr.predcit(test_x)
+        predictino_quantity = lr.predict(test_x)
 
     (rmse, mae,r2) = evel_metrices(test_y, predictino_quantity)
 
 
-    mlflow.log_param("alpha: :", alpha)
-    mlflow.log_param("l1_ration :", l1_ratio)
-    mlflow.log_param("rmse :", rmse)
-    mlflow.log_param("r2 :", r2)
-    mlflow.log_param("mae :",mae)
+    mlflow.log_param("alpha", alpha)
+    mlflow.log_param("l1_ratio", l1_ratio)
+    mlflow.log_metric("rmse", rmse)
+    mlflow.log_metric("r2", r2)
+    mlflow.log_metric("mae", mae)
 
     predictions  = lr.predict(train_x)
     signature = infer_signature(train_x, predictions)

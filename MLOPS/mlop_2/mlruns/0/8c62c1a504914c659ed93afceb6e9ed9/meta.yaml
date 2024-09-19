@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/vivek/work/GIT/ML/MLOPS/mlop_2/mlruns/0/8c62c1a504914c659ed93afceb6e9ed9/artifacts
+deleted_time: 1726724845435
+end_time: 1726724652486
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 8c62c1a504914c659ed93afceb6e9ed9
+run_name: fun-elk-289
+run_uuid: 8c62c1a504914c659ed93afceb6e9ed9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726724651196
+status: 3
+tags: []
+user_id: vivek

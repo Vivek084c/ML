@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/vivek/work/GIT/ML/MLOPS/mlop_2/mlruns/0/ee843eea17f6463eaeb32be9ebc98602/artifacts
+deleted_time: 1726724640804
+end_time: 1726723767821
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: ee843eea17f6463eaeb32be9ebc98602
+run_name: sedate-tern-396
+run_uuid: ee843eea17f6463eaeb32be9ebc98602
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726723767809
+status: 4
+tags: []
+user_id: vivek

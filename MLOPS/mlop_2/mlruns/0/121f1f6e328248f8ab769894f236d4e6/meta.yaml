@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/vivek/work/GIT/ML/MLOPS/mlop_2/mlruns/0/121f1f6e328248f8ab769894f236d4e6/artifacts
+deleted_time: 1726724640802
+end_time: 1726723798204
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 121f1f6e328248f8ab769894f236d4e6
+run_name: crawling-asp-404
+run_uuid: 121f1f6e328248f8ab769894f236d4e6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726723798198
+status: 3
+tags: []
+user_id: vivek

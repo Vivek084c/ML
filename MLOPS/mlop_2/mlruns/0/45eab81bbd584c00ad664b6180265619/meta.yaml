@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/vivek/work/GIT/ML/MLOPS/mlop_2/mlruns/0/45eab81bbd584c00ad664b6180265619/artifacts
+deleted_time: 1726724667444
+end_time: 1726724651194
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 45eab81bbd584c00ad664b6180265619
+run_name: awesome-whale-652
+run_uuid: 45eab81bbd584c00ad664b6180265619
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726724651187
+status: 3
+tags: []
+user_id: vivek
