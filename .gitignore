@@ -5,3 +5,5 @@ transfer_learning/datasets
 RAG/rag_tutorial_code
 RAG/.env
 RAG/rag_from_scrath.ipynb
+LLMs/LLM_Langchain/basic_chatbot_using_olama_openai/.env
+fine tunning/lora_qlora_fine_tunning/krish_tutoiral
