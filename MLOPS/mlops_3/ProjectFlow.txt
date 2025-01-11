@@ -1,0 +1,6 @@
+### Pipeline Building
+
+1) Create the Github Repo
+2) Add source file along with all the componenets
+3) add data, model, report directory, to .github file
+4) Now git, and commit 
