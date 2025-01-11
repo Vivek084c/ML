@@ -1,11 +1,11 @@
 ## **Directory Structure**
-|– data/                   # Local data directory (DVC-tracked)
-|– models/                 # Saved models directory
-|– scripts/                # Scripts for data processing, training, etc.
-|– dvc.yaml                # DVC pipeline configuration file
-|– params.yaml             # Hyperparameters and experiment settings
-|– requirements.txt        # Project dependencies
-|– README.md               # Documentation
+|– data/                   
+|– models/                 
+|– scripts/                
+|– dvc.yaml                
+|– params.yaml             
+|– requirements.txt        
+|– README.md               
 
 The project is organized as follows:
 
