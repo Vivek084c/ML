@@ -1,10 +1,13 @@
-|-- data/                   # Local data directory (DVC-tracked)
-|-- models/                 # Saved models directory
-|-- scripts/                # Scripts for data processing, training, etc.
-|-- dvc.yaml                # DVC pipeline configuration file
-|-- params.yaml             # Hyperparameters and experiment settings
-|-- requirements.txt        # Project dependencies
-|-- README.md               # Documentation
+## **Directory Structure**
+|– data/                   # Local data directory (DVC-tracked)
+|– models/                 # Saved models directory
+|– scripts/                # Scripts for data processing, training, etc.
+|– dvc.yaml                # DVC pipeline configuration file
+|– params.yaml             # Hyperparameters and experiment settings
+|– requirements.txt        # Project dependencies
+|– README.md               # Documentation
+
+The project is organized as follows:
 
 ## **MLOps with DVC and Amazon S3
 
