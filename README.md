@@ -1,3 +1,11 @@
+|-- data/                   # Local data directory (DVC-tracked)
+|-- models/                 # Saved models directory
+|-- scripts/                # Scripts for data processing, training, etc.
+|-- dvc.yaml                # DVC pipeline configuration file
+|-- params.yaml             # Hyperparameters and experiment settings
+|-- requirements.txt        # Project dependencies
+|-- README.md               # Documentation
+
 ## **MLOps with DVC and Amazon S3
 
 This repository contains a subproject dedicated to implementing MLOps practices using DVC for data versioning and Amazon S3 for data storage. The goal of this project is to streamline the machine learning lifecycle by ensuring reproducibility, scalability, and efficient data management.
