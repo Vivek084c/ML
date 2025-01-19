@@ -4,3 +4,21 @@
 2025-01-15 22:58:04,069 - model_building - DEBUG - Model training started with 4152 samples
 2025-01-15 22:58:04,116 - model_building - DEBUG - Model training completed
 2025-01-15 22:58:04,118 - model_building - DEBUG - Model saved to models/model.pkl
+2025-01-19 18:57:47,012 - model_building - DEBUG - Parameters retrieved from params.yaml
+2025-01-19 18:57:47,017 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (4152, 36)
+2025-01-19 18:57:47,017 - model_building - DEBUG - Initializing RandomForest model with parameters: {'n_estimators': 22, 'random_state': 2}
+2025-01-19 18:57:47,017 - model_building - DEBUG - Model training started with 4152 samples
+2025-01-19 18:57:47,057 - model_building - DEBUG - Model training completed
+2025-01-19 18:57:47,058 - model_building - DEBUG - Model saved to models/model.pkl
+2025-01-19 18:58:27,533 - model_building - DEBUG - Parameters retrieved from params.yaml
+2025-01-19 18:58:27,542 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (4152, 36)
+2025-01-19 18:58:27,542 - model_building - DEBUG - Initializing RandomForest model with parameters: {'n_estimators': 22, 'random_state': 2}
+2025-01-19 18:58:27,542 - model_building - DEBUG - Model training started with 4152 samples
+2025-01-19 18:58:27,583 - model_building - DEBUG - Model training completed
+2025-01-19 18:58:27,584 - model_building - DEBUG - Model saved to models/model.pkl
+2025-01-19 19:02:02,959 - model_building - DEBUG - Parameters retrieved from params.yaml
+2025-01-19 19:02:02,963 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (4152, 36)
+2025-01-19 19:02:02,964 - model_building - DEBUG - Initializing RandomForest model with parameters: {'n_estimators': 22, 'random_state': 2}
+2025-01-19 19:02:02,964 - model_building - DEBUG - Model training started with 4152 samples
+2025-01-19 19:02:03,005 - model_building - DEBUG - Model training completed
+2025-01-19 19:02:03,006 - model_building - DEBUG - Model saved to models/model.pkl
