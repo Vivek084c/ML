@@ -7,3 +7,6 @@ RAG/.env
 RAG/rag_from_scrath.ipynb
 LLMs/LLM_Langchain/basic_chatbot_using_olama_openai/.env
 fine tunning/lora_qlora_fine_tunning/krish_tutoiral
+MLOPS/mlops_3/data
+MLOPS/mlops_3/models
+MLOPS/mlops_3/report
