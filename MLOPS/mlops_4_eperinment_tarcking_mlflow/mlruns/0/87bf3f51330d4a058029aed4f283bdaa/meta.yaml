@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/87bf3f51330d4a058029aed4f283bdaa/artifacts
+end_time: 1738605592099
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 87bf3f51330d4a058029aed4f283bdaa
+run_name: shivering-newt-931
+run_uuid: 87bf3f51330d4a058029aed4f283bdaa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738605592087
+status: 3
+tags: []
+user_id: vivek
