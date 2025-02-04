@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/54d04bed331e481796b38449fbe2a4de/artifacts
+deleted_time: 1738639513748
+end_time: 1738639287988
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 54d04bed331e481796b38449fbe2a4de
+run_name: worried-crow-803
+run_uuid: 54d04bed331e481796b38449fbe2a4de
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738639287831
+status: 4
+tags: []
+user_id: vivek

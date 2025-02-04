@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/575489624425319722/9ccd3ef2e8c945539e759fbc87200819/artifacts
+end_time: 1738639983855
+entry_point_name: ''
+experiment_id: '575489624425319722'
+lifecycle_stage: active
+run_id: 9ccd3ef2e8c945539e759fbc87200819
+run_name: nimble-mole-766
+run_uuid: 9ccd3ef2e8c945539e759fbc87200819
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738639983690
+status: 3
+tags: []
+user_id: vivek

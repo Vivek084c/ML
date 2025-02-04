@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/21db79c9f5d8412d8e791b09190f1629/artifacts
+deleted_time: 1738639513748
+end_time: 1738639268647
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 21db79c9f5d8412d8e791b09190f1629
+run_name: agreeable-mule-406
+run_uuid: 21db79c9f5d8412d8e791b09190f1629
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738639267888
+status: 4
+tags: []
+user_id: vivek

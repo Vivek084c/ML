@@ -23,8 +23,6 @@ xtrain, xtest, ytrain, ytest = train_test_split(x,y,test_size=0.10, random_state
 max_depth = 10
 n_estimators = 10
 
-#setting thr experinemnt
-mlflow.set_experiment("vivi1")
 
 #mlflow
 with mlflow.start_run():
