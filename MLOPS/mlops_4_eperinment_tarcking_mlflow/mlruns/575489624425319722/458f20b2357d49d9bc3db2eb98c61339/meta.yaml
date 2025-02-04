@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/575489624425319722/458f20b2357d49d9bc3db2eb98c61339/artifacts
+end_time: 1738684109922
+entry_point_name: ''
+experiment_id: '575489624425319722'
+lifecycle_stage: active
+run_id: 458f20b2357d49d9bc3db2eb98c61339
+run_name: intrigued-sloth-262
+run_uuid: 458f20b2357d49d9bc3db2eb98c61339
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738684107853
+status: 3
+tags: []
+user_id: vivek

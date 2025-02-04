@@ -26,6 +26,9 @@ n_estimators = 10
 #setting thr experinemnt
 mlflow.set_experiment("vivi1")
 
+#autologging
+mlflow.autolog()
+
 #mlflow
 with mlflow.start_run():
    # Training the model
@@ -38,11 +41,6 @@ with mlflow.start_run():
     # Calculating accuracy
     acc = accuracy_score(ytest, ypred)
     print(f"Model Accuracy: {acc}")
-
-    # Logging metrics and parameters
-    mlflow.log_metric("accuracy", acc)
-    mlflow.log_param("max_depth", max_depth)
-    mlflow.log_param("n_estimators", n_estimators)
 
     # Creating and saving the confusion matrix plot
     cm = confusion_matrix(ytest, ypred)
@@ -61,8 +59,7 @@ with mlflow.start_run():
 
     mlflow.set_tags({"mlflow" : "vivek", "projects" : "vivek_084"})
 
-    #logging the model
-    mlflow.sklearn.log_model(rf, "randome forest model")
+
 
     # Optional: Log the script (works if run as a script, not interactively)
     script_path = os.path.abspath(__file__) if "__file__" in globals() else None

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/575489624425319722/6ab3bf0588054d9196c3088995cbbc6a/artifacts
+end_time: 1738683339566
+entry_point_name: ''
+experiment_id: '575489624425319722'
+lifecycle_stage: active
+run_id: 6ab3bf0588054d9196c3088995cbbc6a
+run_name: burly-hawk-314
+run_uuid: 6ab3bf0588054d9196c3088995cbbc6a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738683339352
+status: 4
+tags: []
+user_id: vivek

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/575489624425319722/5a873d74ed9a4da5affa2e1685fc7633/artifacts
+end_time: 1738683417810
+entry_point_name: ''
+experiment_id: '575489624425319722'
+lifecycle_stage: active
+run_id: 5a873d74ed9a4da5affa2e1685fc7633
+run_name: secretive-panda-288
+run_uuid: 5a873d74ed9a4da5affa2e1685fc7633
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738683416016
+status: 3
+tags: []
+user_id: vivek
