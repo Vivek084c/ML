@@ -3,3 +3,18 @@ FROM python:3.8-slim
 
 #set the working directory as the container
 WORKDIR/app
+
+#copyt the current directory to the working directory
+COPY ./app
+
+#install all the required packages
+RUN pip install --no-cache-dir -r requirnments.txt
+
+#expose the port
+EXPOSE 8889
+
+#define environmental variable
+ENV FLASK_APP=app.py
+
+#run the app
+CMD ["flask", "run", "--host=0.0.0.0"]
