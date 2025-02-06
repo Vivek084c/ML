@@ -2,4 +2,4 @@
 FROM python:3.8-slim
 
 #set the working directory as the container
-WORK
+WORKDIR/app
