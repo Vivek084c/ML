@@ -11,4 +11,5 @@ MLOPS/mlops_3/data
 MLOPS/mlops_3/models
 MLOPS/mlops_3/report
 MLOPS/mlops_4_eperinment_tarcking_mlflow/mlartifacts
-NLP/dataset.csv
+NLP/projects/resume screening/data.csv
+NLP/baic tutorial/dataset.csv
