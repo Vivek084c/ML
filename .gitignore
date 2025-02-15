@@ -13,3 +13,5 @@ MLOPS/mlops_3/report
 MLOPS/mlops_4_eperinment_tarcking_mlflow/mlartifacts
 NLP/projects/resume screening/data.csv
 NLP/baic tutorial/dataset.csv
+NLP/projects/resume screening/clf.pkl
+NLP/projects/resume screening/tfidf.pkl
