@@ -15,3 +15,7 @@ NLP/projects/resume screening/data.csv
 NLP/baic tutorial/dataset.csv
 NLP/projects/resume screening/clf.pkl
 NLP/projects/resume screening/tfidf.pkl
+NLP/projects/keyword extraction/papers.csv
+hyperparameter_tunning_fine_tunning/handwritten_digit/model_16.h5
+hyperparameter_tunning_fine_tunning/handwritten_digit/model.h5
+hyperparameter_tunning_fine_tunning/handwritten_digit/no_of_nodes
