@@ -59,4 +59,68 @@ To retrain the model:
 1. Place your labeled resume dataset as 'data.csv'
 2. Run the resume_screening.ipynb notebook
 3. New model files (clf.pkl and tfidf.pkl) will be generated
+
+
+
+# Named Entity Recognition Web App
+
+A Flask-based web application that performs Named Entity Recognition (NER) on uploaded text files using spaCy. The app identifies and visualizes entities like person names, organizations, locations, and more.
+
+## Directory Structure
 ```
+Named_Entity_Recognition/
+├── app.py              # Flask application with NER logic
+├── templates/          # Frontend templates
+│   └── index.html     # Main UI template
+├── requirements.txt    # Project dependencies
+└── README.md          # Project documentation
+```
+
+## Requirements
+- Python 3.7+
+- Flask
+- spaCy
+- en_core_web_sm model
+
+## Setup Instructions
+
+1. Clone the repository:
+```bash
+git clone [your-repo-url]
+cd Named_Entity_Recognition
+```
+
+2. Create and activate virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # For Mac/Linux
+```
+
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+```
+
+## Usage
+
+1. Start the Flask server:
+```bash
+python app.py
+```
+
+2. Open your browser and navigate to `http://localhost:5000`
+3. Upload a text file
+4. Click "Get Entity" to view NER results
+
+## Features
+- Text file upload support
+- Real-time NER processing
+- Visual entity highlighting
+- Support for multiple entity types (Person, Organization, Location, etc.)
+
+## Technologies Used
+- Flask: Web framework
+- spaCy: NLP and NER processing
+- displaCy: Entity visualization
+- Bootstrap: Frontend styling
